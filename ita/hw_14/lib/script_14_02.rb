@@ -26,7 +26,7 @@ end
 
 file=File.read('ip.txt')
 match=file.match re
-puts "Mac address of your computer: #{match}"
+puts "IPv4 address of your computer: #{match}"
 
 
 
