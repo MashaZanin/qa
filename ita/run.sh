@@ -10,3 +10,8 @@ ruby ./hw_13/lib/script_13_05.rb 35 45 61 59 73
 ruby ./hw_13/lib/script_13_06.rb 2 4 6 8 10 12 
 ruby ./hw_13/lib/script_13_07.rb Wednesday morning, John Smith was walking on the street.
 ruby ./hw_13/lib/script_13_08.rb Spring Summer Fall Winter
+ruby ./hw_14/lib/script_14_01.rb mac
+ruby ./hw_14/lib/script_14_02.rb ipv4
+ruby ./hw_14/lib/script_14_03.rb ipv6
+ruby ./hw_15/lib/script_15_00.rb
+
