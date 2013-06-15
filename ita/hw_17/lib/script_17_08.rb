@@ -9,17 +9,17 @@
 
 require 'optparse'
 OptionParser.new do |opts|
-    opts.on("-a","--sentence") do
-        $s=ARGV[0]
+    opts.on("-a","--first_season") do
+        $a=ARGV[0]
 end
-    opts.on("-b","--sentence") do
-        $s=ARGV[0]
+    opts.on("-b","--second_season") do
+        $b=ARGV[0]
 end
-    opts.on("-c","--sentence") do
-        $s=ARGV[0]
+    opts.on("-c","--third season") do
+        $c=ARGV[0]
 end
-    opts.on("-d","--sentence") do
-        $s=ARGV[0]
+    opts.on("-d","--fourth_season") do
+        $d=ARGV[0]
 end
 end.parse!
 

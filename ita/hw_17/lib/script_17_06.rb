@@ -44,6 +44,8 @@ end.parse!
 
 
 sum=0
+a=0
+b=0
 
 ARGV.each do|num|
     sum+=num.to_f
