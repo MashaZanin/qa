@@ -18,7 +18,7 @@ end
     opts.on("-c","--third_number") do
         $c=ARGV[0]
 end
-    opts.on("-d","--forth_number") do
+    opts.on("-d","--fourth_number") do
         $d=ARGV[0]
 end
 end.parse!
