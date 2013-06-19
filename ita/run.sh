@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Commands to execute Homeworks # 13, 14, 15, 17, 18
+# Commands to execute Homeworks # 13, 14, 15, 16, 17, 18
 
 ruby ./hw_13/lib/script_13_01.rb apple banana
 ruby ./hw_13/lib/script_13_02.rb apples bananas
@@ -16,6 +16,8 @@ ruby ./hw_14/lib/script_14_01.rb mac
 ruby ./hw_14/lib/script_14_02.rb ipv4
 ruby ./hw_14/lib/script_14_03.rb ipv6
 ruby ./hw_15/lib/script_15_00.rb
+ruby ./hw_16/lib/script_16_01.rb
+ruby ./hw_16/lib/script_16_02.rb
 ruby ./hw_17/lib/script_17_01.rb -f apple -s banana
 ruby ./hw_17/lib/script_17_02.rb -f apples -s bananas
 ruby ./hw_17/lib/script_17_03.rb -f 100 -s 10
