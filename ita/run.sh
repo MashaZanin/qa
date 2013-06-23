@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Commands to execute Homeworks # 13, 14, 15, 16, 17, 18
+# Commands to execute Homeworks # 13, 14, 15, 16, 17, 18, 21, 22
 
 ruby ./hw_13/lib/script_13_01.rb apple banana
 ruby ./hw_13/lib/script_13_02.rb apples bananas
@@ -54,3 +54,15 @@ ruby ./hw_21/lib/script_21_06_b.rb -i ./hw_21/lib/etc/input_21_06_b.txt
 ruby ./hw_21/lib/script_21_07.rb -i ./hw_21/lib/etc/input_21_07_a.txt
 ruby ./hw_21/lib/script_21_07.rb -i ./hw_21/lib/etc/input_21_07_b.txt
 ruby ./hw_21/lib/script_21_08.rb -i ./hw_21/lib/etc/input_21_08.txt
+
+
+ruby ./hw_22/lib/script_22_01.rb -i ./hw_22/lib/etc/input_22.csv -r 1
+ruby ./hw_22/lib/script_22_02.rb -i ./hw_22/lib/etc/input_22.csv -r 2
+ruby ./hw_22/lib/script_22_03.rb -i ./hw_22/lib/etc/input_22.csv -r 3
+ruby ./hw_22/lib/script_22_04.rb -i ./hw_22/lib/etc/input_22.csv -r 4
+ruby ./hw_22/lib/script_22_05.rb -i ./hw_22/lib/etc/input_22.csv -r 5
+ruby ./hw_22/lib/script_22_06_a.rb -i ./hw_22/lib/etc/input_22.csv -r 6
+ruby ./hw_22/lib/script_22_06_b.rb -i ./hw_22/lib/etc/input_22.csv -r 7
+ruby ./hw_22/lib/script_22_07.rb -i ./hw_22/lib/etc/input_22.csv -r 8
+ruby ./hw_22/lib/script_22_07.rb -i ./hw_22/lib/etc/input_22.csv -r 9
+ruby ./hw_22/lib/script_22_08.rb -i ./hw_22/lib/etc/input_22.csv -r 10
