@@ -1,0 +1,69 @@
+{
+"script_24_01.rb":
+                                    {
+                                    "fruit_a" : "apple",
+                                    "fruit_b" : "banana"
+                                    },
+"script_24_02.rb":
+                                    {
+                                    "fruit_a" : "apples",
+                                    "fruit_b" : "bananas"
+                                    },
+"script_24_03.rb":
+                                    {
+                                    "int_a" : "100",
+                                    "int_b" : "10"
+                                    },
+"script_24_04.rb":
+                                    {
+                                    "oct_1" : "66",
+                                    "oct_2" : "166",
+                                    "oct_3" : "202",
+                                    "oct_4" : "14"
+                                    },
+"script_24_05.rb":
+                                    {
+                                    "num_1" : "35",
+                                    "num_2" : "45",
+                                    "num_3" : "61",
+                                    "num_4" : "59",
+                                    "num_5" : "73"
+                                    },
+"script_24_06_a.rb":
+                                    {
+                                    "num_1" : "2",
+                                    "num_2" : "4",
+                                    "num_3" : "6",
+                                    "num_4" : "8",
+                                    "num_5" : "10",
+                                    "num_6" : "12"
+                                    },
+"script_24_06_b.rb":
+                                    {
+                                    "num_1" : "23",
+                                    "num_2" : "15",
+                                    "num_3" : "97",
+                                    "num_4" : "45",
+                                    "num_5" : "365",
+                                    "num_6" : "1234",
+                                    "num_7" : "523665",
+                                    "num_8" : "45",
+                                    "num_9" : "2971",
+                                    "num_10" : "22145"
+                                    },
+"script_24_07_a.rb":
+                                    {
+                        "sent" : " Wednesday morning, John Smith was walking on the street."
+                                    },
+"script_24_07_b.rb":
+                                    {
+                        "sent" : " Monday evening, Alex More was walking on the street. "
+                                    },
+"script_24_08.rb":
+                                    {
+                                    "s_1" : "Spring",
+                                    "s_2" : "Summer",
+                                    "s_3" : "Fall",
+                                    "s_4" : "Winter"
+                                    }
+}
