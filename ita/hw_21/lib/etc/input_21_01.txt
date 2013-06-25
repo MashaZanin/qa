@@ -1,2 +1,2 @@
-apples
-bananas
+apple
+banana

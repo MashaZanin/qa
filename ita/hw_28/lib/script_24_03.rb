@@ -1,22 +1,28 @@
 # ========================================================================
-# Script 		=	__22_02__
+# Script 		=	__24_03__
 # ========================================================================
-# Description 	=	"Input (CSV files)"
+# Description 	=	"Input (Single JSON files)"
 # Name 			=	"Masha Zanin"
 # Email 		=	"mariazanin@comcast.net"
 # ========================================================================
 
 require 'optparse'
-require 'csv'
+require 'json'
 OptionParser.new do |opts|
     opts.on("-i","--input") do
         $file_name=ARGV[0]
     end
-    opts.on("-r","--row") do
-        $row_num=ARGV[0].to_i-1
-    end
 end.parse!
 
-csv_file=CSV.read($file_name)
+json_file=File.read($file_name)
+element=JSON.parse(json_file)
+if RUBY_PLATFORM=~/darwin/ then
+    script_name=__FILE__.split("/").to_a.last
+    else
+    script_name=__FILE__
+end
 
-puts "My favorite fruit is: #{csv_file[$row_num][0].chop} or #{csv_file[$row_num][1].chop}"
+x=element[script_name]["int_a"].to_i
+y=element[script_name]["int_b"].to_i
+
+puts "When I am dividing #{x} by #{y} I am always have #{x/y}"

@@ -21,4 +21,4 @@ file.each_line do|line|
     lines.push line
     end
 
-puts "My favorite fruit is: #{lines[0].chop.chomp} and #{lines[1].chop.chomp}"
+puts "My favorite fruit is: #{lines[0].chop.chop} and #{lines[1].chop.chop}"
