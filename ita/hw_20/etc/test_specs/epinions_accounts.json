@@ -1,0 +1,101 @@
+{
+    "epinions_invalid_id":
+    [
+        {
+            "username" : "qa220", "password" : "testing"
+        },
+        {
+            "username" : "qa221", "password" : "testing"
+        },
+{
+            "username" : "qa222", "password" : "testing"
+        },
+{
+            "username" : "qa223", "password" : "testing"
+        },
+{
+            "username" : "qa224", "password" : "testing"
+        },
+{
+            "username" : "qa225", "password" : "testing"
+        },
+{
+            "username" : "qa226", "password" : "testing"
+        },
+{
+            "username" : "qa227", "password" : "testing"
+        },
+{
+            "username" : "qa228", "password" : "testing"
+        },
+{
+            "username" : "qa229", "password" : "testing"
+        }
+    ],
+    "epinions_invalid_password":
+    [
+        {
+            "username" : "qa01", "password" : "123test"
+        },
+{
+            "username" : "qa02", "password" : "123test"
+        },
+{
+            "username" : "qa03", "password" : "123test"
+        },
+{
+            "username" : "qa04", "password" : "123test"
+        },
+{
+            "username" : "qa05", "password" : "123test"
+        },
+{
+            "username" : "qa06", "password" : "123test"
+        },
+{
+            "username" : "qa07", "password" : "123test"
+        },
+{
+            "username" : "qa08", "password" : "123test"
+        },
+{
+            "username" : "qa09", "password" : "123test"
+        },
+{
+            "username" : "qa10", "password" : "123test"
+        }
+    ],
+    "epinions_valid_accounts":
+    [
+        {
+            "username" : "qa01", "password" : "testing"
+        },
+{
+            "username" : "qa02", "password" : "testing"
+        },
+{
+            "username" : "qa03", "password" : "testing"
+        },
+{
+            "username" : "qa04", "password" : "testing"
+        },
+{
+            "username" : "qa05", "password" : "testing"
+        },
+{
+            "username" : "qa06", "password" : "testing"
+        },
+{
+            "username" : "qa07", "password" : "testing"
+        },
+{
+            "username" : "qa08", "password" : "testing"
+        },
+{
+            "username" : "qa09", "password" : "testing"
+        },
+{
+            "username" : "qa10", "password" : "testing"
+        }
+    ]
+}
