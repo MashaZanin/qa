@@ -1,0 +1,79 @@
+
+Epinions - Validate Epinions.com login on all listed servers.
+
+________________________________________________________________________________________________________________________
+Web Server: http://www.epinions.com
+________________________________________________________________________________________________________________________
+
+test_01
+
+Validations:
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa220/testing.
+ PASS: The user 'qa220' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa221/testing.
+ PASS: The user 'qa221' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa222/testing.
+ PASS: The user 'qa222' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa223/testing.
+ PASS: The user 'qa223' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa224/testing.
+ PASS: The user 'qa224' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa225/testing.
+ PASS: The user 'qa225' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa226/testing.
+ PASS: The user 'qa226' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa227/testing.
+ PASS: The user 'qa227' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa228/testing.
+ PASS: The user 'qa228' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa229/testing.
+ PASS: The user 'qa229' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_02
+
+Validations:
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa01/123test.
+ PASS: The user 'qa01' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa02/123test.
+ PASS: The user 'qa02' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa03/123test.
+ PASS: The user 'qa03' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa04/123test.
+ PASS: The user 'qa04' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa05/123test.
+ PASS: The user 'qa05' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa06/123test.
+ PASS: The user 'qa06' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa07/123test.
+ PASS: The user 'qa07' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa08/123test.
+ PASS: The user 'qa08' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa09/123test.
+ PASS: The user 'qa09' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa10/123test.
+ PASS: The user 'qa10' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_03
+
+Validations:
+ PASS: For Valid credentials, message 'qa01's Account' is displayed : qa01/testing.
+ PASS: User 'qa01' has Logged In as text 'Sign Out' is displayed : qa01/testing.
+ FAIL: For Valid credentials, message 'qa02's Account' is not displayed : qa02/testing
+ PASS: User 'qa02' has Logged In as text 'Sign Out' is displayed : qa02/testing.
+ FAIL: For Valid credentials, message 'qa03's Account' is not displayed : qa03/testing
+ PASS: User 'qa03' has Logged In as text 'Sign Out' is displayed : qa03/testing.
+ FAIL: For Valid credentials, message 'qa04's Account' is not displayed : qa04/testing
+ PASS: User 'qa04' has Logged In as text 'Sign Out' is displayed : qa04/testing.
+ FAIL: For Valid credentials, message 'qa05's Account' is not displayed : qa05/testing
+ PASS: User 'qa05' has Logged In as text 'Sign Out' is displayed : qa05/testing.
+ FAIL: For Valid credentials, message 'qa06's Account' is not displayed : qa06/testing
+ PASS: User 'qa06' has Logged In as text 'Sign Out' is displayed : qa06/testing.
+ FAIL: For Valid credentials, message 'qa07's Account' is not displayed : qa07/testing
+ PASS: User 'qa07' has Logged In as text 'Sign Out' is displayed : qa07/testing.
+ FAIL: For Valid credentials, message 'qa08's Account' is not displayed : qa08/testing
+ PASS: User 'qa08' has Logged In as text 'Sign Out' is displayed : qa08/testing.
+ FAIL: For Valid credentials, message 'qa09's Account' is not displayed : qa09/testing
+ PASS: User 'qa09' has Logged In as text 'Sign Out' is displayed : qa09/testing.
+ FAIL: For Valid credentials, message 'qa10's Account' is not displayed : qa10/testing
+ PASS: User 'qa10' has Logged In as text 'Sign Out' is displayed : qa10/testing.
+

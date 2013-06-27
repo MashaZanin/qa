@@ -1,0 +1,25 @@
+
+Epinions - Validate Epinions.com login on all listed servers.
+
+________________________________________________________________________________________________________________________
+Web Server: http://www.epinions.com
+________________________________________________________________________________________________________________________
+
+test_01
+
+Validations:
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : qa222/test.
+ PASS: The user 'qa222' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_02
+
+Validations:
+ PASS: For Invalid password, message 'Invalid Password' is displayed : qa15/123456.
+ PASS: The user 'qa15' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_03
+
+Validations:
+ PASS: For Valid credentials, message 'qa15's Account' is displayed : qa15/testing.
+ PASS: User 'qa15' has Logged In as text 'Sign Out' is displayed : qa15/testing.
+
