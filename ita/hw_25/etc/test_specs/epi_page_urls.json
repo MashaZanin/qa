@@ -1,0 +1,17 @@
+{
+    "pages" :
+    [
+        {
+            "page_id" : "01",
+            "page_name":"Home Page",
+            "page_url" : "/",
+            "page_spec" : "epi_home_page_elements.json"
+        },
+        {
+            "page_id" : "02",
+            "page_name":"Product Page",
+            "page_url" : "/Digital_Cameras--~all",
+            "page_spec" : "epi_browse_product_page_elements.json"
+        }
+    ]
+}
