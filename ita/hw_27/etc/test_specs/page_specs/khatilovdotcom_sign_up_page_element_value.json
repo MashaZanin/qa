@@ -1,0 +1,104 @@
+{
+"elements":
+    [
+        {
+            "element_id" : "51",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Sign Up",
+            "selector" : "id",
+            "selector_value" : "id_f_title",
+            "attributes" : ""
+        },
+{
+            "element_id" : "52",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "First Name",
+            "selector" : "id",
+            "selector_value" : "id_f_label_fn",
+            "attributes" : ""
+        },
+{
+            "element_id" : "53",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Last Name",
+            "selector" : "id",
+            "selector_value" : "id_f_label_Ln",
+            "attributes" : ""
+        },
+{
+            "element_id" : "54",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Email Address",
+            "selector" : "id",
+            "selector_value" : "id_f_label_ea",
+            "attributes" : ""
+        },
+{
+            "element_id" : "55",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Phone Number",
+            "selector" : "id",
+            "selector_value" : "id_f_label_pn",
+            "attributes" : ""
+        },
+{
+            "element_id" : "56",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Gender",
+            "selector" : "id",
+            "selector_value" : "id_f_label_g",
+            "attributes" : ""
+        },
+{
+            "element_id" : "57",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "State",
+            "selector" : "id",
+            "selector_value" : "id_f_label_s",
+            "attributes" : ""
+        },
+{
+            "element_id" : "58",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "I agree to Terms",
+            "selector" : "class",
+            "selector_value" : "label_checkbox",
+            "attributes" : ""
+        },
+{
+            "element_id" : "59",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Male",
+            "selector" : "id",
+            "selector_value" : "id_r_label_m",
+            "attributes" : ""
+        },
+{
+            "element_id" : "60",
+            "element_name" : "span",
+            "element_type" : "Span",
+            "element_value" : "Female",
+            "selector" : "id",
+            "selector_value" : "id_r_label_f",
+            "attributes" : ""
+        },
+{
+            "element_id" : "61",
+            "element_name" : "a",
+            "element_type" : "link",
+            "element_value" : "rubygems.org::output-to-file",
+            "selector" : "",
+            "selector_value" : "",
+            "attributes" : ""
+        }
+]
+}
