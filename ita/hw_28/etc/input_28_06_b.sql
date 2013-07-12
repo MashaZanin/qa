@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS t_28_06_b (id INT PRIMARY KEY AUTO_INCREMENT, item VARCHAR(50));
+INSERT INTO t_28_06_b (item) values ('23');
+INSERT INTO t_28_06_b (item) values ('15');
+INSERT INTO t_28_06_b (item) values ('97');
+INSERT INTO t_28_06_b (item) values ('45');
+INSERT INTO t_28_06_b (item) values ('365');
+INSERT INTO t_28_06_b (item) values ('1234');
+INSERT INTO t_28_06_b (item) values ('523665');
+INSERT INTO t_28_06_b (item) values ('45');
+INSERT INTO t_28_06_b (item) values ('2971');
+INSERT INTO t_28_06_b (item) values ('22145');

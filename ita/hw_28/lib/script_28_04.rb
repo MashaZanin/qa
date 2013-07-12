@@ -1,5 +1,5 @@
 # ========================================================================
-# Script 		=	__28_01__
+# Script 		=	__28_04__
 # ========================================================================
 # Description 	=	"Input (DB - 10 tables)"
 # Name 			=	"Masha Zanin"
@@ -25,23 +25,24 @@ begin
     con.query("USE #{$db_name}")
     con.query("DROP TABLE IF EXISTS #{$table_name}")
     
-File.readlines($sql_file).each do |sql|
-sql.gsub("tbl", "#{$table_name}")
-con.query("#{sql}")
-end
-
-rs=con.query("SELECT * FROM #{$table_name}")
+    File.readlines($sql_file).each do |sql|
+        sql.gsub("tbl", "#{$table_name}")
+        con.query("#{sql}")
+    end
     
-rs.each_hash do |row|
-    items<<row["item"].chomp
-end
+    rs=con.query("SELECT * FROM #{$table_name}")
+    
+    rs.each_hash do |row|
+        items<<row["item"].chomp
+    end
 
-puts "My favorite fruits are: #{items[0]}s and #{items[1]}s"
-
-rescue Mysql::Error => e
-puts e.errno
-puts e.error
-
-ensure
-con.close if con
+    
+    puts "My IP Address is: #{items[0]}.#{items[1]}.#{items[2]}.#{items[3]}"
+    
+    rescue Mysql::Error => e
+    puts e.errno
+    puts e.error
+    
+    ensure
+    con.close if con
 end
